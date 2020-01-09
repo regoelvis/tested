@@ -1,0 +1,38 @@
+button:hover{
+    color:cornflowerblue;
+    cursor: grab;
+}
+
+.signup:hover {
+    color:white;
+}
+
+/*@media only screen and (max-width:720px){
+    body{
+        margin: auto;
+        width: max-content;
+        min-width: ;
+        background-image: none;
+        
+    }
+}*/
+
+@media only screen and (max-width: 1080px) and (orientation:portrait) {
+    body {
+      background-color: rgb(255, 255, 255);
+      background-image: none;
+    }
+    .mainbody{
+        margin: auto;
+    }
+  }
+
+  /*@media only screen and (max-width: 720px) and (orientation:portrait) {
+    body {
+      background-color: rgb(255, 255, 255);
+      background-image: none;
+    }
+    .mainbody{
+        margin: autos;
+    }
+  }*/

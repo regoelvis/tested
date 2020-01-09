@@ -1,0 +1,119 @@
+body{
+    background-image: url("Ed-Controls-foto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.centerblock{
+    display: block;
+    margin: auto;
+}
+
+div *{
+    margin-bottom: 25px;
+}
+
+.mainblock{
+    display: block;
+    margin:auto;
+    min-width: 11cm;
+    max-width: min-content; 
+   /* margin-top: auto; 
+    position: relative ;
+    top: auto;
+    /*min-height: 10.5cm;*/
+    min-height: fit-content;
+    max-height: auto;
+    /*margin-bottom: auto;*/     
+    background-color: rgba(255, 255, 255, 0.8);
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo{
+    margin-bottom: 25px;
+    min-width: 20%;
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #233B4F;
+    padding: 30px 10px 30px 10px;
+}
+
+.emailpassword{
+    display: block;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-width: thin;
+    border-color:grey;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin: auto;
+    width: 75%;
+    margin-bottom: 15px; 
+    height: 35px;
+    font-size: 1.3rem;
+}
+
+.remember{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.login{
+    width: 50%;
+    height:max-content;
+    color: white;
+    background-color:#233B4F;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.forgot{
+    width: fit-content;
+    font-size: 1.1rem;
+    color: grey;
+}
+
+.newaccount{
+    background-color: #233B4F;
+    margin-top: 10px;   
+    width: 50%;
+    color:gray;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.signup{
+    background-color: transparent;
+     font-size:1.1rem;
+     color:grey;
+    padding: 2px 15px 2px 15px;
+    border-style: ridge;
+    border-radius: 4px 4px 4px 4px;
+}
+
+div >label {
+    width: fit-content;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.newaccount > button{
+    margin-top: 10px;
+}
+
+.forgot{
+margin-top: 10px;
+margin-bottom: 10px;
+}
